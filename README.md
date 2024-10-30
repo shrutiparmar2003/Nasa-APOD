@@ -24,34 +24,6 @@ Before you begin, ensure you have the following installed:
 -✅Requests
 -✅smtplib (part of Python's standard library)
 
-## Installation
-
-1.Clone this repository:
-   ```bash
-   git clone https://github.com/your_username/Nasa-APOD.git
-
- 
-2.Navigate to the project directory:
-cd Nasa-APOD
-
-3.Install the required packages:
-pip install streamlit requests
-
- 4.API Key
-To use the NASA APOD API, you need an API key. You can request one from the NASA API website. Once you have your key, replace the DEMO_KEY variable in the code with your own.
-
-# 🚀 Usage
-## 1.Run the Streamlit application:
-streamlit run app.py
-## 2. Open your web browser and navigate to http://localhost:8501 to access the application.
-## 3. Select a date to view the APOD.
-## 4. Choose whether to send the image to your email. If yes, fill in your email details.
-## 5. Click the "Send Email" button to receive the image in your inbox.
-
-# 💻Technologies Used
-Streamlit: A Python library for creating web applications.
-Requests: A simple library for making HTTP requests.
-smtplib: A Python library for sending emails.
 
 # ✨ About APOD : 
 The Astronomy Picture of the Day (APOD) is a website provided by NASA and Michigan Technological University. According to the website, "Each day a different image or photograph of our universe is featured, along with a brief explanation written by a professional astronomer."
