@@ -9,20 +9,50 @@
 # ✨Introduction
 Stellar Sender is a Streamlit application that allows users to fetch the Astronomy Picture of the Day (APOD) from NASA's API and send it to their email. It’s a simple yet powerful way to explore the wonders of the universe every day!
 
-# Features
--✅Fetch the Astronomy Picture of the Day for a selected date.
--✅View the picture along with its title and explanation.
--✅Download the image to your local machine.
--✅Send the APOD image via email with a customizable message.
+## 🔶 Features
+- ✅ Fetch the Astronomy Picture of the Day for a selected date.
+- ✅ View the picture along with its title and explanation.
+- ✅ Download the image to your local machine.
+- ✅ Send the APOD image via email with a customizable message.
 
-# Getting Started
-## 🔸Prerequisites:
+---
+
+## 🔶 Getting Started
+
+### 🔸 Prerequisites
 Before you begin, ensure you have the following installed:
+- ✅ **Python 3.x**
+- ✅ **Streamlit**
+- ✅ **Requests**
+- ✅ **smtplib** (part of Python's standard library)
 
--✅Python 3.x
--✅Streamlit
--✅Requests
--✅smtplib (part of Python's standard library)
+---
+## 🔶 Technologies Used
+- **Python** - For backend logic and API handling.
+- **Streamlit** - To create the user interface.
+- **NASA APOD API** - For fetching the Astronomy Picture of the Day.
+- **smtplib** - For sending the APOD images via email.
+  
+
+  ## 🔶 Usage
+
+1. **Clone this repository**:
+
+    ```bash
+    git clone https://github.com/yourusername/stellar-sender.git
+    cd stellar-sender
+    ```
+
+2. **Install the required packages**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Streamlit app**:
+
+    ```bash
+    streamlit run main.py
 
 
 # ✨ About APOD : 
