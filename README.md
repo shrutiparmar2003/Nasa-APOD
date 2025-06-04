@@ -6,7 +6,7 @@
 🔶 [Technologies Used](#-technologies-used)  
 🔶 [About APOD](#-about-apod)
 
-# ✨Introduction
+# Introduction
 Stellar Sender is a Streamlit application that allows users to fetch the Astronomy Picture of the Day (APOD) from NASA's API and send it to their email. It’s a simple yet powerful way to explore the wonders of the universe every day!
 
 ## 🔶 Features
